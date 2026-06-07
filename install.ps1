@@ -1,37 +1,27 @@
 # 1. Configuration Variables
-$zipUrl = "https://github.com/code0star/Struct_distribution/releases/latest/download/Struct.zip"
-$installDir = "$env:USERPROFILE\AppData\Local\Struct"
-$zipPath = "$env:TEMP\Struct.zip"
-$exeName = "Struct.exe" # ⚠️ Update this if your executable has a different filename
+$installerUrl = "https://github.com/code0star/Struct_distribution/releases/latest/download/struct-1.1.0-Setup.exe"
+$installerPath = "$env:TEMP\struct-setup.exe"
 
 Write-Host "🚀 Initializing installation for Struct..." -ForegroundColor Cyan
 
-# 2. Clean up any prior installation assets safely
-if (Test-Path $installDir) {
-    Remove-Item -Recurse -Force $installDir
-}
-New-Item -ItemType Directory -Force -Path $installDir | Out-Null
-
-# 3. Stream down the latest release payload
-Write-Host "📥 Fetching latest production build..." -ForegroundColor Green
+# 2. Download the official Electron Installer
+Write-Host "📥 Fetching the production installer executable..." -ForegroundColor Green
 try {
-    Invoke-WebRequest -Uri $zipUrl -OutFile $zipPath -UserAgent "Mozilla/5.0"
+    Invoke-WebRequest -Uri $installerUrl -OutFile $installerPath -UserAgent "Mozilla/5.0"
 } catch {
-    Write-Host "❌ Failed to download the package. Verify that a release asset named 'Struct.zip' exists." -ForegroundColor Red
+    Write-Host "❌ Download failed. Make sure 'struct-1.1.0-Setup.exe' is attached to your latest GitHub release." -ForegroundColor Red
     Exit
 }
 
-# 4. Extract binaries locally
-Write-Host "📦 Unpacking application assets..." -ForegroundColor Green
-Expand-Archive -Path $zipPath -DestinationPath $installDir -Force
-Remove-Item $zipPath
+# 3. Run the installer silently in the background
+Write-Host "📦 Launching setup engine..." -ForegroundColor Green
+try {
+    # The /S or --silent flag runs the Electron/Squirrel installer without showing configuration boxes
+    Start-Process -FilePath $installerPath -ArgumentList "/S" -Wait
+    Write-Host "✅ Setup successful! Struct has been installed and should open momentarily." -ForegroundColor Cyan
+} catch {
+    Write-Host "❌ The installer encountered an issue running silently." -ForegroundColor Red
+}
 
-# 5. Provision the Desktop Shortcut
-Write-Host "🖥️ Provisioning desktop shortcut..." -ForegroundColor Green
-$WshShell = New-Object -ComObject WScript.Shell
-$Shortcut = $WshShell.CreateShortcut("$env:USERPROFILE\Desktop\Struct.lnk")
-$Shortcut.TargetPath = "$installDir\$exeName"
-$Shortcut.WorkingDirectory = $installDir
-$Shortcut.Save()
-
-Write-Host "✅ Setup successful! You can now launch Struct directly from your desktop." -ForegroundColor Cyan
+# 4. Clean up the installer binary from temporary storage
+Remove-Item $installerPath -ErrorAction SilentlyContinue
