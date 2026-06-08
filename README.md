@@ -6,11 +6,11 @@
 
 **YouTube didn't want you to have this. We built it anyway.**
 
-[![Release](https://img.shields.io/github/v/release/yourusername/struct?color=6C63FF&style=flat-square)](https://github.com/yourusername/struct/releases)
+[![Release](https://img.shields.io/github/v/release/code0star/struct?color=6C63FF&style=flat-square)](https://github.com/code0star/struct/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)](#-installation)
 [![Free](https://img.shields.io/badge/price-free-brightgreen?style=flat-square)](#)
 [![No Subscriptions](https://img.shields.io/badge/no-subscriptions-red?style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/yourusername/struct?style=flat-square&color=yellow)](https://github.com/yourusername/struct/stargazers)
+[![Stars](https://img.shields.io/github/stars/code0star/struct?style=flat-square&color=yellow)](https://github.com/code0star/struct/stargazers)
 
 [⬇️ Download for Windows](#-installation) · [✨ Features](#-features) · [🔒 Privacy](#-privacy-your-data-stays-yours)
 
@@ -77,12 +77,7 @@ Struct is one of the only AI tools where you are genuinely in full control.
 
 Struct is available as a native Windows desktop app — free, no sign-up required.
 
-**[⬇️ Download for Windows (.exe)](https://github.com/yourusername/struct/releases/latest)**
-
-Or install via PowerShell:
-```powershell
-irm https://raw.githubusercontent.com/yourusername/struct/main/install.ps1 | iex
-```
+**[⬇️ Download for Windows (.exe)](https://github.com/code0star/struct/releases/latest)**
 
 > macOS support coming soon.
 
