@@ -5,12 +5,9 @@
 # Struct
 
 **YouTube didn't want you to have this. We built it anyway.**
-
-[![Release](https://img.shields.io/github/v/release/code0star/struct?color=6C63FF&style=flat-square)](https://github.com/code0star/struct/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-blue?style=flat-square)](#-installation)
 [![Free](https://img.shields.io/badge/price-free-brightgreen?style=flat-square)](#)
 [![No Subscriptions](https://img.shields.io/badge/no-subscriptions-red?style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/code0star/struct?style=flat-square&color=yellow)](https://github.com/code0star/struct/stargazers)
 
 [⬇️ Download for Windows](https://struct-website.vercel.app/) · [✨ Features](#-features) · [🔒 Privacy](#-privacy-your-data-stays-yours)
 
