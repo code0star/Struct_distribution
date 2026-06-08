@@ -13,6 +13,8 @@
 
 [⬇️ Download for Windows](https://struct-website.vercel.app/) · [✨ Features](#-features) · [🔒 Privacy](#-privacy-your-data-stays-yours)
 
+⭐ **Struct will be open-sourced in the future** — star this repo and follow me so you don't miss it!
+
 </div>
 
 ---
@@ -101,6 +103,7 @@ Struct is available as a native Windows desktop app — free, no sign-up require
 ## 🤝 Contributing
 
 Contributions are welcome. Open an issue first to discuss what you'd like to change or add.
+[We are open for feedback](https://forms.gle/TuJrsAkyUgNhKx7Q8)
 
 ---
 
