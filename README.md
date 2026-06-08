@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="/logo.png" alt="Struct Logo" width="80" />
+<img src="/Screenshot 2026-06-05 094653.png" alt="Struct Logo" width="80" />
 
 # Struct
 
