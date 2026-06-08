@@ -108,12 +108,6 @@ Contributions are welcome. Open an issue first to discuss what you'd like to cha
 
 ---
 
-## 📄 License
-
-MIT © [Gaurav](https://github.com/yourusername)
-
----
-
 <div align="center">
 
 **If Struct helped you study, drop a ⭐ — it means a lot.**
