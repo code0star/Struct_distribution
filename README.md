@@ -13,7 +13,7 @@
 
 [⬇️ Download for Windows](https://struct-website.vercel.app/) · [✨ Features](#-features) · [🔒 Privacy](#-privacy-your-data-stays-yours)
 
-⭐ **Struct will be open-sourced in the future** — star this repo and follow me so you don't miss it!
+⭐ **Struct will be open-sourced in the future** so star this repo and follow me so you don't miss it!
 
 [We are open for feedback](https://forms.gle/TuJrsAkyUgNhKx7Q8)
 
