@@ -112,6 +112,4 @@ Contributions are welcome. Open an issue first to discuss what you'd like to cha
 
 **If Struct helped you study, drop a ⭐ — it means a lot.**
 
-[🐛 Report a Bug](https://github.com/yourusername/struct/issues) · [💡 Request a Feature](https://github.com/yourusername/struct/issues)
-
 </div>
