@@ -12,7 +12,7 @@
 [![No Subscriptions](https://img.shields.io/badge/no-subscriptions-red?style=flat-square)](#)
 [![Stars](https://img.shields.io/github/stars/code0star/struct?style=flat-square&color=yellow)](https://github.com/code0star/struct/stargazers)
 
-[⬇️ Download for Windows]((https://struct-website.vercel.app/)) · [✨ Features](#-features) · [🔒 Privacy](#-privacy-your-data-stays-yours)
+[⬇️ Download for Windows]([(https://struct-website.vercel.app/)](https://struct-website.vercel.app/)) · [✨ Features](#-features) · [🔒 Privacy](#-privacy-your-data-stays-yours)
 
 </div>
 
@@ -77,7 +77,7 @@ Struct is one of the only AI tools where you are genuinely in full control.
 
 Struct is available as a native Windows desktop app — free, no sign-up required.
 
-**[⬇️ Download for Windows (.exe)]((https://struct-website.vercel.app/))**
+**[⬇️ Download for Windows (.exe)]([https://struct-website.vercel.app/](https://struct-website.vercel.app/))**
 
 > macOS support coming soon.
 
