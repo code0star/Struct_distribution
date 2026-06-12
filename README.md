@@ -25,7 +25,7 @@
 
 Udemy charges you. YouTube drowns you. ChatGPT walls you in text.
 
-You sit in a college lecture — half the concepts don't land. You open YouTube — great content, but zero structure. You ask ChatGPT — walls of text, no context. This is how most people learn in 2026: jumping between tabs, losing context, retaining nothing.
+You sit in a college lecture half the concepts don't land. You open YouTube great content, but zero structure. You ask ChatGPT walls of text, no context. This is how most people learn in 2026: jumping between tabs, losing context, retaining nothing.
 
 **What if you just submitted a topic and got a full course back?**
 
@@ -35,7 +35,7 @@ Personalised to your syllabus, your knowledge level, your way of thinking. Store
 
 ## What is Struct?
 
-Struct is a free AI learning platform that taps into YouTube's massive library and turns it into a **structured, personalised course built for you** — structured notes, quizzes, a roadmap, and an AI assistant, all in one place.
+Struct is a free AI learning platform that taps into YouTube's massive library and turns it into a **structured, personalised course built for you** structured notes, quizzes, a roadmap, and an AI assistant, all in one place.
 
 No tab switching. No tension. Just pure learning. Totally free.
 
@@ -46,27 +46,27 @@ No tab switching. No tension. Just pure learning. Totally free.
 ## ✨ Features
 
 ### 📋 Structured Notes
-Every video gets broken down into clean, organised study notes — not a transcript dump. Key concepts, terminology, formulas, practical examples, critical pitfalls, and an exam-readiness checklist. The kind of notes you wish you had written yourself.
+Every video gets broken down into clean, organised study notes not a transcript dump. Key concepts, terminology, formulas, practical examples, critical pitfalls, and an exam-readiness checklist. The kind of notes you wish you had written yourself.
 
 ### 🧠 AI Assistant (RAG-Powered)
-Ask anything about your course content and get precise answers grounded in the actual video material — not generic AI responses. The more you add to a course, the smarter it gets.
+Ask anything about your course content and get precise answers grounded in the actual video material not generic AI responses. The more you add to a course, the smarter it gets.
 
 ### 📝 Quizzes
 Auto-generated multiple choice quizzes from the real video content. Test yourself after every lesson without making a single flashcard.
 
 ### 🗺️ Personalised Roadmap
-Upload your course syllabus and Struct builds a full learning roadmap — finding the right YouTube content for each topic automatically.
+Upload your course syllabus and Struct builds a full learning roadmap finding the right YouTube content for each topic automatically.
 
 ### 💾 Runs Locally
 Everything lives on your machine. Your courses, your notes, your progress. No cloud, no sync, no server in between.
 
 ---
 
-## 🔒 Privacy — Your Data Stays Yours
+## 🔒 Privacy Your Data Stays Yours
 
 Most AI apps send your data to their servers. Struct doesn't.
 
-- **Your API keys never leave your machine.** They are stored locally and used directly from your device — never sent to our servers.
+- **Your API keys never leave your machine.** They are stored locally and used directly from your device  never sent to our servers.
 - **Your courses and notes are stored locally.** We have zero access to your learning data.
 - **No account required.** No email, no sign-up, no profile.
 - **No telemetry.** We don't track usage, sessions, or behaviour.
@@ -78,7 +78,7 @@ Struct is one of the only AI tools where you are genuinely in full control.
 
 ## 📦 Installation
 
-Struct is available as a native Windows desktop app — free, no sign-up required.
+Struct is available as a native Windows desktop app free, no sign-up required.
 
 **[⬇️ Download for Windows (.exe)](https://struct-website.vercel.app/)**
 
@@ -110,6 +110,6 @@ Contributions are welcome. Open an issue first to discuss what you'd like to cha
 
 <div align="center">
 
-**If Struct helped you study, drop a ⭐ — it means a lot.**
+**If Struct helped you study, drop a ⭐ it means a lot.**
 
 </div>
